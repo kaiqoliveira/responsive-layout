@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:rgb(233, 232, 232);
+}
+.container__principal{
+  display: flex;
+  width: 98%;
+  justify-content: space-around;
+  margin: 10px auto; 
+}
+.conteudo__esquerda{
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;  
+}
+.aside__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px; 
+}
+.aside__header svg, h1,p{
+    margin-left: 10px;  
+}
+.aside__header h1,p,h3,a,h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.car__icon{
+   margin-right: 200px; 
+}
+h1{
+    color: rgb(43, 6, 6); 
+}
+a{
+    color:gray;
+    text-decoration-style: dotted;
+}
+.inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    margin-top: 20px;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 30px;
+    opacity: 30%;
+}
+.galeria__esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formatacao__imagens__esquerda{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto ;   
+}
+.retangulo__branco{
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.conteudo__links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size:18px
+    margin-top: 35px;
+    padding-bottom: 35px; 
+}
+.caixa__textos{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;  
+}
+.caixa__textos h3{
+    margin-left: 10px;
+}
+.botao__comecar{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 20px;
+    border: 1px solid rgba(90, 90, 90, 0.1);
+    margin-bottom: 20px;   
+}
+.conteudo__final__esquerda{
+    display: flex;
+    width: 100%;
+    padding: 45px;
+    flex-direction: column;
+    align-items: baseline; 
+}
+
+.posicionamento__teste2 h3,a{
+    margin-left: 10px;
+}
+.posicionamento__teste2{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;   
+}
+.botao__lermais{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 20px;
+    border: 1px solid rgba(90, 90, 90, 0.1); 
+}
+.main{
+    width: 68%;
+    padding: 20px;
+}
+.new__article{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 100px; 
+}
+.header__article{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.1);
+}
+.header__article h2,p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.alinhamento__teste{
+    display: flex;
+    flex-direction: column;
+    margin-right:auto;
+}
+.alinhamento__teste h2{
+    margin-left:10px;
+}
+.galeria__direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.formatacao__imagens__direita{
+    width: 70%;
+}
+.paragrafo__article{
+    margin-top: 40px;
+}
+.footer__direita{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 35px;
+/* overflow:auto; */
+}
+.interacoes__sociais{
+    display: flex;
+    padding: 20px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.interacoes__sociais a,svg,p,.inner2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inner2 {
+    height: 15px;
+    border-left: 1px solid #969696;
+    opacity: 30%;
+}
+@media (max-width:920px){
+    .container__principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;   
+        align-items: center; 
+    }
+    .aside__header{
+        align-items: center;
+        text-align: center;
+    }
+    .conteudo__esquerda{
+        width: 100%;
+        height: auto;  
+        
+    }
+    .car__icon{
+        margin-left: auto;
+        margin-right: 0;
+    }
+   .aside__header{
+       align-items: center;
+   }
+    
+    .galeria__esquerda {
+        display: flex;
+        flex-direction: row;
+        width: 100%;   
+    }
+  
+   .conteudo__links{
+       display: flex;
+      margin-right: auto;
+   }
+   .breakpoint__conteudo__links{
+       margin-right: auto;
+       padding-left: 25px;
+   }
+   .new__article{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .header__article{
+        text-align: center;
+    }
+    .formatacao__imagens__direita {
+        width: 100%;
+    }
+    .main{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
